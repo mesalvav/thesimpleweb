@@ -22,7 +22,7 @@ namespace simpleweb.Controllers
 
         public String Apinono()
         {
-            return "noapi";
+            return "Itisnoapi";
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
