@@ -22,7 +22,7 @@ namespace simpleweb.Test
         public void apitest()
         {
             var returnValue = hController.Apinono();
-            Assert.Equal("noApi", returnValue);
+            Assert.Equal("Itisnoapi", returnValue);
         }
     }
 }
