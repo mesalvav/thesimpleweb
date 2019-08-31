@@ -25,6 +25,12 @@ namespace simpleweb.Controllers
             return "Itisnoapi";
         }
 
+
+        public String Apiother()
+        {
+            return "other";
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
