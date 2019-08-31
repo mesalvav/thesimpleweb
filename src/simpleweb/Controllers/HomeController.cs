@@ -26,9 +26,9 @@ namespace simpleweb.Controllers
         }
 
 
-        public String Apiother()
+        public String Justother()
         {
-            return "other";
+            return "otherPipeline2";
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
